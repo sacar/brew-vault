@@ -11,12 +11,12 @@ To get started with this project, follow these steps:
 1. Clone this repository to your local machine.
 2. Navigate to the project directory in your terminal.
 3. Run the following command to install the required dependencies:
+```
+npm run dev
+```
 
 ## Usage
 
 Once the dependencies are installed, you can start the development server by running:
-```
-npm run dev
 
-```
 
