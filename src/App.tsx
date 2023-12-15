@@ -30,10 +30,8 @@ function App() {
         const data = await fetchBeers(10, p);
         const updatedData = updatedBeerData(data);
         setBeerData(updatedData);
-        setIsLoading(false);
       } catch (error) {
         setIsError(true);
-        console.error(error);
       } finally {
         // Set loading to false after API call
         setIsLoading(false);
