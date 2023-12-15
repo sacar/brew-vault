@@ -8,7 +8,7 @@ interface BeerListProps {
 }
 const BeerList: React.FC<BeerListProps> = ({ beerList }) => {
   return (
-    <Container className="">
+    <Container>
       <Row xs={1} md={2} lg={3} className="g-4">
         {beerList.map((beer: Beer) => (
             <Col key={beer.id}>
