@@ -10,13 +10,15 @@ To get started with this project, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory in your terminal.
-3. Run the following command to install the required dependencies:
+3. Switch to node vesrion 18 or above, since vite only supports node version 18 or above
+4. Run the following command to install the required dependencies:
 ```
-npm run dev
+npm install
 ```
 
 ## Usage
 
 Once the dependencies are installed, you can start the development server by running:
-
-
+```
+npm run dev
+```
