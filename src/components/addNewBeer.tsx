@@ -47,6 +47,11 @@ const AddNewBeerModal: React.FC<AddNewBeerModalProps> = ({ showModal, setShowMod
       tagline: beerTagline,
       description: beerDescription,
       image_url: "../assets/houuz_beer.png",
+      ingredients: {
+        malt: [],
+        hops: [],
+        yeast: "",
+      }
     };
 
     const updatedBeers = [...beers, beerToAdd];
