@@ -22,3 +22,7 @@ Once the dependencies are installed, you can start the development server by run
 ```
 npm run dev
 ```
+## Demo
+This is the demo video.
+
+https://www.loom.com/share/9aec2edd1d3e4cf8ab6992cbc20057c2?sid=d10ee2cf-e5af-407f-9c2f-bc1d6d275089
